@@ -1,8 +1,13 @@
-# babel-plugin-styled-components-require
-
+### babel-plugin-styled-components-require
 Babel plugin that adds styled-components import declaration.
 
-## Example
+[![Build
+Status](https://api.travis-ci.org/siddharthkp/babel-plugin-styled-components-require.svg?branch=master)](https://travis-ci.org/siddharthkp/babel-plugin-styled-components-require)
+[![npm](https://img.shields.io/npm/v/babel-plugin-styled-components-require.svg?maxAge=3600)](https://www.npmjs.com/package/babel-plugin-styled-components-require)
+
+&nbsp;
+
+#### Example
 
 Your `component.js` that contains this code:
 
@@ -30,15 +35,11 @@ const Card = styled.div`
 export default Card;
 ```
 
-## Usage
+#### Usage
 
-* Install `babel-plugin-styled-components-require`.
+`npm install babel-plugin-styled-components-require --save-dev`
 
-```
-npm install babel-plugin-styled-components-require --save-dev
-```
-
-* Add `styled-components-require` into `.babelrc`.
+Add `styled-components-require` into `.babelrc`
 
 ```json
 {
@@ -47,3 +48,7 @@ npm install babel-plugin-styled-components-require --save-dev
   ]
 }
 ```
+
+#### License
+
+MIT © [siddharthkp](https://github.com/siddharthkp)
