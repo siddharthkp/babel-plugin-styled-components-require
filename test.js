@@ -1,13 +1,13 @@
 const babel = require('babel-core');
 const assert = require('assert');
-const reactPlugin = require('./index').default;
+const styledComponentsPlugin = require('./index').default;
 
 let transform;
 
-describe('babel-plugin-react', () => {
+describe('babel-plugin-styled-components', () => {
   beforeEach(() => {
     transform = code => babel.transform(code, {
-      plugins: [reactPlugin],
+      plugins: [styledComponentsPlugin],
     }).code;
   });
 
