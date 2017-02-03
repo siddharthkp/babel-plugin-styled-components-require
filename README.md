@@ -1,9 +1,11 @@
 ### babel-plugin-styled-components-require
-Babel plugin that adds styled-components import declaration.
-
 [![Build
 Status](https://api.travis-ci.org/siddharthkp/babel-plugin-styled-components-require.svg?branch=master)](https://travis-ci.org/siddharthkp/babel-plugin-styled-components-require)
 [![npm](https://img.shields.io/npm/v/babel-plugin-styled-components-require.svg?maxAge=3600)](https://www.npmjs.com/package/babel-plugin-styled-components-require)
+
+&nbsp;
+
+Babel plugin that adds styled-components import declaration.
 
 &nbsp;
 
@@ -35,6 +37,8 @@ const Card = styled.div`
 export default Card;
 ```
 
+&nbsp;
+
 #### Usage
 
 `npm install babel-plugin-styled-components-require --save-dev`
@@ -48,6 +52,14 @@ Add `styled-components-require` into `.babelrc`
   ]
 }
 ```
+
+&nbsp;
+
+#### You like?
+
+:star: this repo
+
+&nbsp;
 
 #### License
 
