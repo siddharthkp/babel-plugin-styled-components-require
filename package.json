@@ -1,0 +1,28 @@
+{
+  "name": "babel-plugin-styled-components-require",
+  "version": "1.0.0",
+  "description": "Babel plugin that adds styled-components import declaration",
+  "keywords": [
+    "babel",
+    "babel-plugin",
+    "require",
+    "styled-components",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/siddharthkp/babel-plugin-styled-components-require/issues"
+  },
+  "license": "MIT",
+  "author": "siddharthkp",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "siddharthkp/babel-plugin-styled-components-require"
+  },
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0"
+  }
+}
