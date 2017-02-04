@@ -58,8 +58,11 @@ Add `styled-components-require` into `.babelrc`
 #### Tests
 
 ✓ add import statement if `styled.*` is present
+
 ✓ do not add to already transpiled code
+
 ✓ do not add import styled-components twice
+
 ✓ do not add if it already imported
 
 &nbsp;
