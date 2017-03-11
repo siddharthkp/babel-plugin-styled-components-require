@@ -31,7 +31,7 @@ export default Blue;`
   it('do not add to already transpiled code', () => {
     const transformed = transform('var a = 1;');
 
-    assert.equal(transformed, 'var a = 1');
+    assert.equal(transformed, 'var a = 1;');
   });
 
   it('do not add import styled-components twice', () => {
