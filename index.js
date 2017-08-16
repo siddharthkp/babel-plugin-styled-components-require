@@ -12,12 +12,15 @@ exports.default = ({types: t}) => {
         enter: (path, {file}) => {
           file.set('hasStyled', false);
         },
-        exit: ({node, scope}, {file}) => {
+        exit: ({ node, scope }, { opts, file }) => {
           if (!(file.get('hasStyled') && !scope.hasBinding('styled'))) return;
+          const packageName = opts.native
+            ? 'styled-components/native'
+            : 'styled-components';
 
           const declaration = t.importDeclaration(
             [t.importDefaultSpecifier(t.identifier('styled'))],
-            t.stringLiteral('styled-components')
+            t.stringLiteral(packageName)
           );
 
           node.body.unshift(declaration);
